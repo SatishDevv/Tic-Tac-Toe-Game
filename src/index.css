@@ -1,3 +1,30 @@
+*{
+  box-sizing: border-box;
+}
+:root{
+  --xRed : rgb(197,1,1);
+  --oBlack : rgb(18, 8, 8);
+  --color-bg:#1b2122;
+  --color-white:#fff;
+  --color-primary:#4db5ff;
+
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background: var(--color-bg);
+  color: var(--color-white);
+  line-height: 1.7;
+  background-image: url(../src/Assest/bg-texture.png);
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +38,5 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+

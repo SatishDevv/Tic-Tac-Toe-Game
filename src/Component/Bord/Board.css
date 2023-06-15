@@ -1,0 +1,29 @@
+.board{
+    display: grid;
+    grid-template-columns: repeat(3,9.4rem);
+    place-items: center;
+    justify-content: center;
+}
+
+
+/* +++++++++++++++++++++++ media query +++++++++++++++++++++++++++ */
+
+@media  (width <= 1224px)  {
+    .board{
+        display: grid;
+        grid-template-columns: repeat(3,9.9rem);
+        place-items: center;
+        justify-content: center;
+    } 
+    
+}
+
+@media  (width <= 600px) {
+   
+     .board{
+        display: grid;
+        grid-template-columns: repeat(3,8.2rem);
+        place-items: center;
+        justify-content: center;
+    } 
+}
